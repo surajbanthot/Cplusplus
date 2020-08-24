@@ -21,6 +21,12 @@ Constructors:
 3.non parameterised constructors;
 4.copy constructors;
 
+copy constructors:-
+Rectangle(Rectangle &rect)
+{
+    length=rect.length;
+    breadth=rect.breadth;
+}
 
 
 
