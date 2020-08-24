@@ -14,6 +14,14 @@ int &y=x;
 
 now y is pointing to x with x having the address and the same address is set to y
 
+Constructors:
+
+1.default Constructors
+2.Parametrised Constructors.
+3.non parameterised constructors;
+4.copy constructors;
+
+
 
 
 
