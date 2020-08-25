@@ -1,0 +1,40 @@
+uninitialized pointer
+memory leak
+dangling pointer
+
+we can directly assign address value to the pointer 
+int *p;
+p=(int*)0x5638;
+
+when ever declare a reference it has to be initialized
+
+int x=10;
+
+int &y=x;
+
+now y is pointing to x with x having the address and the same address is set to y
+
+Constructors:
+
+1.default Constructors
+2.Parametrised Constructors.
+3.non parameterised constructors;
+4.copy constructors;
+
+copy constructors:-
+Rectangle(Rectangle &rect)
+{
+    length=rect.length;
+    breadth=rect.breadth;
+}
+
+Constructors in Inheritance 
+
+int main()
+{
+    Derived d;
+    default of Base is called first
+    default of Derived is called later
+}
+
+
