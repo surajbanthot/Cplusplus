@@ -37,4 +37,12 @@ int main()
     default of Derived is called later
 }
 
+#ifndef
+
+#define PI 3.1415
+
+#endif
+
+
+namespaces are used to avoid the name conflicts
 
