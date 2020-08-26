@@ -27,9 +27,6 @@ ifstream & operator>>(ifstream &ifs, Student &s)
     return ifs;
 }
 
-
-
-
 int main()
 {
     // ofstream ofs("My.txt", ios::trunc); //creates the file and truncates the file
