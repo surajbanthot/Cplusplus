@@ -16,7 +16,8 @@ class Demo
 
 void fun()
 {
-    Demo d;
+    Demo *p=new Demo(); //heap memory has to be explicitly deleted if new is created. 
+    delete p;
 }
 
 int main()
