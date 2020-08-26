@@ -46,3 +46,7 @@ int main()
 
 namespaces are used to avoid the name conflicts
 
+file modes are 
+append ios::app
+truncate ios::trunc
+
