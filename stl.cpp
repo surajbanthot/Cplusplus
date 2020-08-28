@@ -56,12 +56,17 @@ int main()
 
     map<int, string> m;
     m.insert(pair<int, string>(1, "john"));
-    m.insert(pair<int, string>(2,"joseph"));
+    m.insert(pair<int, string>(2, "joseph"));
 
     map<int, string>::iterator itr;
-    for(itr=m.begin();itr!=m.end();itr++)
-    cout<<itr->first<<" "<<itr->second<<endl; //first and second are the entities of the map class that are int and string 
-      
+    for (itr = m.begin(); itr != m.end(); itr++)
+        cout << itr->first << " " << itr->second << endl; //first and second are the entities of the map class that are int and string
 
-        return 0;
+    // To find the value's using the key in map(key, value);
+
+    map<int, string>::iterator itr1;
+    itr1 = m.find(2);
+    cout << itr1->first << " " << itr1->second << endl;
+
+    return 0;
 }
