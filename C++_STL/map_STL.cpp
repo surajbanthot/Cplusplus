@@ -26,8 +26,22 @@ int main()
 
 
     //iterator
-    for(auto itr=mp.begin();itr!=mp.end();itr++)
-    cout<<itr->first<<" "<<itr->second<<endl;
+    // for(auto itr=mp.begin();itr!=mp.end();itr++)
+    // cout<<itr->first<<" "<<itr->second<<endl;
+    //greater will sort the list in a descending order
+    //lesser will sort the list in a ascending order
+
+
+    map<int,string,greater<int>> mymap;
+    mymap[0]="abc";
+    mymap[1]="efg";
+    mymap[2]="hij";
+    mymap[3]="klm";
+
+    for(auto &elem: mymap)
+    {
+        cout<<elem.first<<" - "<<elem.second<<endl;
+    }
 
     return 0;
 }
