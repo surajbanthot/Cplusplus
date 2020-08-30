@@ -1,0 +1,21 @@
+associative containers
+
+map,multimap, set, multiset
+
+unordered_map,unordered_multimap,unordered_set,unordered_multiset
+
+Maps:
+
+In maps the sorting takes place on the order of the key
+
+multimap:
+
+multimap allows multiple values to a single key
+
+Erase -Remove Idiom
+ is used inf sequence containers
+ -vectors and Deque. 
+
+
+
+
